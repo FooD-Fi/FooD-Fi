@@ -1,4 +1,8 @@
-// SPDX-License-Identifier: UNLICENSED
+/**
+ *Submitted for verification at BscScan.com on 2022-08-06
+*/
+
+// SPDX-License-Identifier: MIT
 
 /*
 
@@ -511,7 +515,7 @@ contract Food_Fi_Token is IERC20Extended, Auth {
     string private constant _name = "FooD-Fi";
     string private constant _symbol = "EAT";
     uint8 private constant _decimals = 18;
-    uint256 private constant _totalSupply = 150_000_000 * 10**_decimals;
+    uint256 private constant _totalSupply = 250_000_000 * 10**_decimals;
 
     address public BUSD = 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56;
     address private constant DEAD = address(0xdead);
