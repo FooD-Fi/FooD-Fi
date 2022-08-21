@@ -526,23 +526,23 @@ contract Food_Fi_Token is IERC20Extended, Auth {
     address public marketingFeeReceiver;
     address public devFeeReceiver;
 
-    uint256 _liquidityBuyFee = 300;
-    uint256 _reflectionBuyFee = 200;
-    uint256 _marketingBuyFee = 100;
-    uint256 _devBuyFee = 200;
+    uint256 _liquidityBuyFee = 0;
+    uint256 _reflectionBuyFee = 0;
+    uint256 _marketingBuyFee = 0;
+    uint256 _devBuyFee = 0;
 
-    uint256 _liquiditySellFee = 400;
-    uint256 _reflectionSellFee = 200;
-    uint256 _marketingSellFee = 200;
-    uint256 _devSellFee = 200;
+    uint256 _liquiditySellFee = 0;
+    uint256 _reflectionSellFee = 0;
+    uint256 _marketingSellFee = 0;
+    uint256 _devSellFee = 0;
 
     uint256 _liquidityFeeCount;
     uint256 _reflectionFeeCount;
     uint256 _marketingFeeCount;
     uint256 _devFeeCount;
 
-    uint256 public totalBuyFee = 800;
-    uint256 public totalSellFee = 1000;
+    uint256 public totalBuyFee = 0;
+    uint256 public totalSellFee = 0;
     uint256 public feeDenominator = 10000;
 
     DividendDistributor public distributor;
